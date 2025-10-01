@@ -44,13 +44,13 @@ The full dataset is around 6 GB. You can email us at `molastra@hotmail.com` to r
 num_samples=30000
 CUDA_VISIBLE_DEVICES=2 molecule_generation sample checkpoints/MoLeR_checkpoint $num_samples
 
-# Finetune (ZINC -> FluoDB)
+# Sample from Finetuned Model
 CUDA_VISIBLE_DEVICES=6 python scripts/sample.py --model_dir checkpoints/finetune --output_path fluorgen_gen.csv
 
-# Sample from Pretrained Model (ZINC Only)
+# Sample from Pretrained Model
 CUDA_VISIBLE_DEVICES=7 python scripts/sample.py --model_dir checkpoints/MoLeR_checkpoint --output_path fluorgen_gen.csv
 
-# Sample from Model (FluoDB Only)
+# Sample from Directed Trained Model
 CUDA_VISIBLE_DEVICES=7 python scripts/sample.py --model_dir checkpoints/train --output_path fluorgen_train_gen.csv
 ```
 
