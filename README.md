@@ -36,7 +36,7 @@ pip install tf2_gnn
 
 ## Datasets
 
-The Complete datasets, preprocess and the
+The full dataset is around 6 GB. You can email us at `molastra@hotmail.com` to request a copy. 😊
 
 ## Samples
 
