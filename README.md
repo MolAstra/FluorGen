@@ -155,7 +155,7 @@ This code is adapted from Maziarz’s work, which should also be cited appropria
 }
 ```
 
-The data used in this study is derived from the works of Zhu and Polykovskiy, which should be cited appropriately.
+The data used in this study is derived from the works of Zhu, Brown and Polykovskiy, which should be cited appropriately.
 
 ```bash
 @article{zhuModularArtificialIntelligence2025,
@@ -171,6 +171,22 @@ The data used in this study is derived from the works of Zhu and Polykovskiy, wh
   doi = {10.1038/s41467-025-58881-5},
   url = {https://doi.org/10.1038/s41467-025-58881-5}
 }
+```
+
+```bash
+@article{brownGuacaMolBenchmarkingModels2019,
+  title = {{{GuacaMol}}: {{Benchmarking Models}} for de {{Novo Molecular Design}}},
+  author = {Brown, Nathan and Fiscato, Marco and Segler, Marwin H.S. and Vaucher, Alain C.},
+  date = {2019-03-25},
+  journaltitle = {Journal of Chemical Information and Modeling},
+  shortjournal = {J. Chem. Inf. Model.},
+  volume = {59},
+  number = {3},
+  pages = {1096--1108},
+  publisher = {American Chemical Society},
+  issn = {1549-9596},
+  doi = {10.1021/acs.jcim.8b00839},
+  url = {https://doi.org/10.1021/acs.jcim.8b00839}
 ```
 
 ```bash
