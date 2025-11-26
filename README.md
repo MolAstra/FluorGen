@@ -38,6 +38,8 @@ pip install tf2_gnn
 
 The full dataset is around 6 GB. You can email us at `molastra@hotmail.com` to request a copy. 😊
 
+Now we update the dataset to zenodo, please feel free to download the [monster](https://zenodo.org/records/17718274).
+
 ## Samples
 
 ```bash
@@ -141,7 +143,19 @@ CUDA_VISIBLE_DEVICES=7 molecule_generation train MoLeR datasets/finetune/trace \
 ## Citations
 
 ```bash
-<place_holder>
+@article{lyuFluorGenGraphbasedDeep2026,
+  title = {{{FluorGen}}: {{A}} Graph-Based Deep Learning Model Generates Fluorescent Dyes with Structural Fragments},
+  author = {Lyu, Jintian and Zhou, Nan and Zhong, Jiamin and Li, Weihong and Shen, Dadong and Du, Kui},
+  year = 2026,
+  month = mar,
+  journal = {Dyes and Pigments},
+  volume = {246},
+  pages = {113330},
+  issn = {0143-7208},
+  doi = {10.1016/j.dyepig.2025.113330},
+  abstract = {Developing Deep Generative Models (DGMs) for automated molecular design holds great promise for accelerating the discovery of novel fluorescent dyes. Here, we introduce FluorGen, a generative model tailored for designing effective fluorescent molecules. FluorGen leverages a two-stage learning strategy to address data scarcity: large-scale pretraining on the small-molecule databaset, followed by domain-specific fine-tuning on FluoDB, which contains 35,528 fluorescent molecules. The model demonstrates performance on par with state-of-the-art methods in unconstrained molecular generation tasks, achieving validity and novelty scores as high as 0.999 and 0.995. Moreover, generated compounds display well-defined normal distributions of emission wavelengths ({$\lambda$}em~{$\geq~$}500~nm) and quantum yields ({$\Phi~\geq~$}0.5). FluorGen not only refines common fluorescent fragments but also iteratively optimizes optical properties, making it a powerful tool for discovering molecules with tailored fluorescence characteristics.},
+  keywords = {Deep generative models,Fluorescent dyes,Scaffold-constrained generation,Transfer learning},
+}
 ```
 
 This code is adapted from Maziarz’s work, which should also be cited appropriately.
